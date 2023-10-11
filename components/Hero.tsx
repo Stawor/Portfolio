@@ -18,6 +18,7 @@ export default function Hero() {
 						alt="Profile Image"
 					></Image>
 				</div>
+				<div></div>
 			</main>
 		</>
 	);

@@ -22,6 +22,7 @@ export default function Nav() {
 					<Link href="/">Contact</Link>
 				</li>
 			</ul>
+			<div></div>
 		</nav>
 	);
 }
