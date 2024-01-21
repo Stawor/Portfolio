@@ -9,7 +9,7 @@ export default function Contact() {
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 2 }}
 			id="about"
-			className="flex justify-center text-center bg-slate-800 w-full p-10"
+			className="flex justify-center text-center bg-slate-800 w-full p-10 z-50"
 		>
 			<div className=" flex flex-col justify-center items-center gap-10 max-w-7xl w-[80vw]">
 				<h1 className="text-5xl">About Me</h1>

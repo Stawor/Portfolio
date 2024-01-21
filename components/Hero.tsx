@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import BackgroundSvg from "./BackgroundSvg";
 import profilePicture from "@/public/profilePicture.png";
 import { motion } from "framer-motion";
+import BgSvg from "./BgSvg";
 
 export default function Hero() {
 	const [text, setText] = useState("Full-Stack");
@@ -32,13 +33,14 @@ export default function Hero() {
 		setText("Full-Stack");
 	}
 	return (
-		<>
+		<div className="flex items-center justify-center h-[60rem] ">
 			<motion.main
-				className=" flex items-center justify-center m-36 mt-[20rem] z-50 "
+				className=" flex items-center justify-center z-50 max-w-7xl"
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 2 }}
 			>
+				<BgSvg />
 				<div
 					className="relative"
 					onMouseOver={(e) => setHover(true)}
@@ -70,6 +72,6 @@ export default function Hero() {
 					<BackgroundSvg />
 				</div>
 			</motion.main>
-		</>
+		</div>
 	);
 }

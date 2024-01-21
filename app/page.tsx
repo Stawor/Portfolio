@@ -7,7 +7,7 @@ import AboutMe from "@/components/AboutMe";
 
 export default function Home() {
 	return (
-		<div className=" flex flex-col items-center gap-80 overflow-hidden">
+		<div className=" flex flex-col items-center justify-center gap-80 overflow-hidden">
 			<CourserPosition />
 			<Hero />
 			<Carousel />

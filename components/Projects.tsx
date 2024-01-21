@@ -28,7 +28,10 @@ export default function Projects() {
 								</div>
 								<div className="flex gap-2 flex-wrap text-sm">
 									{data.tags.map((tag, index) => (
-										<div className="bg-slate-600 rounded-full px-2 py-1">
+										<div
+											key={index}
+											className="bg-slate-600 rounded-full px-2 py-1"
+										>
 											{tag}
 										</div>
 									))}
