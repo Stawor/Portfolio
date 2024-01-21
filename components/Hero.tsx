@@ -66,6 +66,7 @@ export default function Hero() {
 						alt="Profile Image"
 						className="opacity-80"
 					></Image>
+
 					<BackgroundSvg />
 				</div>
 			</motion.main>

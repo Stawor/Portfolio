@@ -20,15 +20,19 @@ export default function Contact() {
 				</a>{" "}
 				or through this form
 			</p>
-			<form className="flex flex-col w-full  gap-4">
+			<form className="flex flex-col w-full gap-4">
 				<input
 					type="email"
 					placeholder="Your email"
+					maxLength={500}
+					required
 					className="border border-black p-2 text-black"
 				/>
 				<textarea
 					className="border border-black p-2 text-black h-[15rem]"
 					placeholder="Your message"
+					required
+					maxLength={500}
 				></textarea>
 				<button
 					type="submit"
