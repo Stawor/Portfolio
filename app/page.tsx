@@ -4,6 +4,7 @@ import Projects from "@/components/Projects";
 import CourserPosition from "@/components/CourserPosition";
 import Contact from "@/components/Contact";
 import AboutMe from "@/components/AboutMe";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<Projects />
 			<AboutMe />
 			<Contact />
+			<Footer />
 		</div>
 	);
 }
