@@ -14,14 +14,14 @@ export default function Contact() {
 			<div className=" flex flex-col justify-center items-center gap-10 max-w-7xl w-[80vw]">
 				<h1 className="text-5xl">About Me</h1>
 				<p className="text-xl flex">
-					I started my coding journey becouse I was curious how does the web
-					works. Now after countless hours of learning I am looking for the
+					I started my coding journey because I was curious about how the web
+					works. Now, after countless hours of learning, I am looking for my
 					first job as a web developer. My current stack includes: React,
-					TypeScript, Next.js, TailwindCSS, Node.js, Express.js. I love to learn
-					new technologies and I am looking for new opportunities to grow. I am
-					an open-minded, optimistic person, and I love working with people.
-					Currently, my only goal in life is to become full-stack Senior
-					Developer.
+					TypeScript, Next.js, Tailwind CSS, Node.js, and Express.js. I love to
+					learn new technologies, and I am looking for new opportunities to
+					grow. I am an open-minded, optimistic person, and I love working with
+					people. Currently, my only goal in life is to become a full-stack
+					Senior Developer.
 				</p>
 			</div>
 		</motion.div>
