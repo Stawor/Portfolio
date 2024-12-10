@@ -20,9 +20,7 @@ export default function Contact() {
 					TypeScript, Next.js, Tailwind CSS, Node.js, and Express.js. I love to
 					learn new technologies, and I am looking for new opportunities to
 					grow. I am an open-minded, optimistic person, and I love working with
-					people. Currently, my only goal in life is to become a full-stack
-					Senior Developer.
-				</p>
+					people.
 			</div>
 		</motion.div>
 	);
