@@ -35,7 +35,7 @@ export const data = [
 	{
 		id: "2",
 		src: pic2,
-		desc: "A NextJS based e-commerce app with Prisma and MySQL database. It has features like adding to cart, sorting items, checkout, payment,  etc.",
+		desc: "!!!!!!!!! DATABASE MIGRATION!!!!!!!!!!!!",
 		href: "https://e-commerce-stawor.vercel.app",
 		tags: ["React", "NextJS", "TailwindCSS", "Stripe", "Prisma", "MySQL"],
 	},
