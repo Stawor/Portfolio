@@ -20,6 +20,7 @@ export default function Contact() {
 					learn new technologies, and I am looking for new opportunities to
 					grow. I am an open-minded, optimistic person, and I love working with
 					people.
+				</p>
 			</div>
 		</motion.div>
 	);
