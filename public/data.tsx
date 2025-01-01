@@ -35,7 +35,7 @@ export const data = [
 	{
 		id: "2",
 		src: pic2,
-		desc: "!!!!!!!!! DATABASE MIGRATION!!!!!!!!!!!!",
+		desc: "!!!!!!!!!!! UNDER CONSTRUCTION DATABASE MIGRATION!!!!!!!!!!!!",
 		href: "https://e-commerce-stawor.vercel.app",
 		tags: ["React", "NextJS", "TailwindCSS", "Stripe", "Prisma", "MySQL"],
 	},
