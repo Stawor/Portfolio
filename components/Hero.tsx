@@ -46,7 +46,7 @@ export default function Hero() {
 				>
 					<div className="flex flex-col gap-6">
 						<h1 className="text-5xl xl:text-7xl ">{text} Web Developer</h1>
-						<p>Hello, my name is Gabriel and I am Full-Stack Developer</p>
+						<p>Hello, my name is Gabriel and i like to code</p>
 						<div className="flex gap-6">
 							<a href="https://github.com/Stawor?tab=repositories">
 								<div className=" h-[3rem] w-[8rem] bg-white text-black flex justify-center items-center gap-2 rounded-3xl hover:scale-110 transition-all">
